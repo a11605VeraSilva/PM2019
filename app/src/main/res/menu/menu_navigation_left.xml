@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_add"
+            android:enabled="true"
+            android:icon="@drawable/ic_atividades"
+            android:title="Atividades"/>
+
+
+        <item
+            android:id="@+id/sub_ativ"
+            android:enabled="true"
+            android:title="Tarefa"/>
+
+        <item
+            android:id="@+id/sub_ativ2"
+            android:enabled="true"
+            android:title="Pergunta" />
+
+        <item
+            android:id="@+id/sub_ativ3"
+            android:enabled="true"
+            android:title="Material" />
+
+        <item
+            android:id="@+id/sub_ativ4"
+            android:enabled="true"
+            android:title="Reutilizar Postagem"/>
+
+        <item
+            android:id="@+id/sub_ativ5"
+            android:enabled="true"
+            android:title="Tópicos"/>
+
+    </group>
+</menu>

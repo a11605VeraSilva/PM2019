@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/tarefa_atividade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="Tarefa"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/Pergunta_atividade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pergunta"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/Material_atividade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/ReutilizarPost_atividade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tópico"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

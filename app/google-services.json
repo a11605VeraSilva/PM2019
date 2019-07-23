@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "854477707815",
+    "firebase_url": "https://tpandroid-f9a15.firebaseio.com",
+    "project_id": "tpandroid-f9a15",
+    "storage_bucket": "tpandroid-f9a15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854477707815:android:acd70d6c928b984c",
+        "android_client_info": {
+          "package_name": "com.example.tp_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854477707815-mh1jd5u07ocvjmmfkdp9v6gq9rrmprq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tp_android",
+            "certificate_hash": "53b90656e588dfad347dc5e492fc34385c02a2b2"
+          }
+        },
+        {
+          "client_id": "854477707815-vvnu67karmks0b1m6n5h95allbhkvbge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAknR6vNJK0NYB6H58sXq1albH4TBPBixI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854477707815-vvnu67karmks0b1m6n5h95allbhkvbge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

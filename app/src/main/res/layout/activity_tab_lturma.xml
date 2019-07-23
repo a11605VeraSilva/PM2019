@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Turmas.TabLTurma"
+    android:orientation="vertical"
+    android:background="@color/colorApp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/colorApp">
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/aulafrag_nomedisc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Nome Disciplina"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/aulafrag_nomecurso"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Curso"
+            android:textSize="16dp"
+            android:paddingRight="10dp"/>
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        android:id="@+id/tablayout_id"
+        app:tabTextColor="@color/colorApp"
+        app:tabIndicatorColor="#615D5D"
+        android:background="#FFFFFF"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorApp"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:id="@+id/seconddiveder"
+            android:layout_height="2dp"
+            android:layout_width="fill_parent"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_addAula"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorApp"
+                android:text="Próxima Aula"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+
+
+            <Button
+                android:id="@+id/button_addTarefas"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorApp"
+                android:text="Tarefas/ Atividades"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/button_addSumarios"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorApp"
+                android:text="Sumários"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/button_addAlunos"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorApp"
+                android:text="Adicionar Membros"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/button_copiardiscilpina"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorApp"
+                android:text="Copiar Disciplina"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

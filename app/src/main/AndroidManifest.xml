@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tp_android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Alunos.Contactar.ContactarProfessor"></activity>
+        <activity android:name=".Alunos.ContactarProfessor" />
+        <activity android:name=".Turmas.ConteudosTurma" />
+        <activity android:name=".Alunos.AulaAluno" />
+        <activity android:name=".Alunos.SumarioAluno" />
+        <activity android:name=".Perfil.MessageActivity" />
+        <activity android:name=".Perfil.Card_Analise" />
+        <activity android:name=".Perfil.Card_Notificacoes" />
+        <activity android:name=".Perfil.Card_Contactar" />
+        <activity android:name=".Perfil.Card_Eventos" />
+        <activity android:name=".Turmas.TurmaFragmento.FragmentSummary" />
+        <activity android:name=".Turmas.TabLTurma" />
+        <activity
+            android:name=".Turmas.Turma_View"
+            android:label="@string/title_activity_turma__view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Alunos.TarefaAluno" />
+        <activity android:name=".Horarios.HorarioAulas" />
+        <activity android:name=".Mural.MuralTurmas" />
+        <activity android:name=".Alunos.MenuAluno" />
+        <activity android:name=".Alunos.EntrarAluno" />
+        <activity android:name=".Turmas.NewNote" />
+        <activity
+            android:name=".Turmas.BlocoNotas"
+            android:theme="@style/ThemeAction" />
+        <activity android:name=".Turmas.ConvidarAluno" />
+        <activity
+            android:name=".Turmas.VerTurmas"
+            android:theme="@style/ThemeAction" />
+        <activity android:name=".Turmas.MenuTurmas" />
+        <activity android:name=".SliderAdapter" />
+        <activity android:name=".Menu_Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterUser" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+    </application>
+
+</manifest>

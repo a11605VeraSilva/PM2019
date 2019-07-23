@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="#f4f4f4">
+
+    <TextView
+        android:id="@+id/aula_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="10-10-2019"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aula_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="10:30"
+        app:layout_constraintEnd_toEndOf="@+id/aula_data"
+        app:layout_constraintStart_toStartOf="@+id/aula_data"
+        app:layout_constraintTop_toBottomOf="@+id/aula_data" />
+
+    <TextView
+        android:id="@+id/aula_sala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Sala C"
+        app:layout_constraintBottom_toBottomOf="@+id/aula_hora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toEndOf="@+id/aula_data"
+        app:layout_constraintTop_toTopOf="@+id/aula_data"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <TextView
+        android:id="@+id/aula_duracao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingBottom="10dp"
+        android:text="Duração: 2 Horas"
+        app:layout_constraintEnd_toEndOf="@+id/aula_sala"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aula_hora" />
+</android.support.constraint.ConstraintLayout>

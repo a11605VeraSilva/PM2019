@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="#f4f4f4">
+
+    <TextView
+        android:id="@+id/rvadmin_listrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:text="Email Administrador"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/aula_sala"
+        app:layout_constraintStart_toStartOf="@+id/aula_hora"
+        app:layout_constraintTop_toBottomOf="@+id/aula_hora" />
+</android.support.constraint.ConstraintLayout>
